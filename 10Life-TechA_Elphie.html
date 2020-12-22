@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>10Life-Technical Assessment_Elphie</title>
+    
+</head>
+<body>
+    <h1>Forex - World Currencies</h1>
+    <main id='root'>
+        <componentauserinput :createcoption='createcoption' :query='query' :checkuserinput='checkuserinput' ></componentauserinput>
+        <componentbresultarea v-show='flag' :labels='labels' :data='data'></componentbresultarea>
+    </main>
+    <script src='script.js'></script>
+</body>
+</html>
